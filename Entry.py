@@ -1,0 +1,16 @@
+from tkinter import *
+
+top = Tk()
+L1 = Label(top, text="User Name").grid(row=0)
+#L1.pack( side = LEFT)
+E1 = Entry(top, bd =5).grid(row=0,column=1)
+#E1.pack(side = RIGHT)
+L2 = Label(top, text="\nAge").grid(row=1)
+#L2.pack( side = LEFT)
+E2 = Entry(top, bd =5).grid(row=1,column=1)
+#E2.pack(side = RIGHT)
+L3=Label(top,text="\nEmail ID").grid(row=2)
+E3=Entry(top,bd=5).grid(row=2,column=1)
+L4=Label(top,text="\nPhone no").grid(row=3)
+E4=Entry(top,bd=5).grid(row=3,column=1)
+top.mainloop()
